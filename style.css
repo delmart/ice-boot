@@ -1,0 +1,101 @@
+body
+{
+	background-image: url(images/grid.jpg);
+	font-family:'Open Sans';
+}
+
+.footer
+{
+	background-color: black;
+	color:#aaaaaa;
+	padding-bottom: 3em;
+	padding-top: 3em;
+
+}
+
+.footer a
+{
+	color: #aaaaaa;
+	font-size: 30px;
+}
+
+.footer a:hover
+{
+	color:#F2E9E9;
+}
+
+#wrapper
+{
+	background-image: url(images/background.jpg);
+	height: 600px;
+	background-size: cover;
+	text-align: center;
+	padding-top: 200px;
+	color: white;
+	text-shadow: 2px 2px 5px black;
+}
+
+#wrapper h1
+{
+	font-size: 72px;
+}
+
+#wrapper h2
+{
+	font-size: 18px;
+	margin-bottom: 2em;
+}
+
+#spacer
+{
+	height: 6em;
+}
+
+.feature
+{
+	font-size: '300';
+	letter-spacing: 2px;
+}
+
+.feature img
+{
+	margin-bottom: 1em;
+}
+
+.navbar-transparent
+{
+	background-color: rgba(0,0,0,0.70);
+}
+
+.navbar-transparent .navbar-brand,
+.navbar-transparent .navbar-nav > li > a {
+  color: #eeeeee;
+  line-height: 50px;
+}
+
+.navbar-transparent .navbar-nav > li > a:hover,
+.navbar-transparent .navbar-nav > li > a:active,
+.navbar-transparent .navbar-nav > li > a:focus,
+.navbar-transparent .navbar-nav > .open > a,
+.navbar-transparent .navbar-nav > .open > a:hover,
+.navbar-transparent .navbar-nav > .open > a:focus {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.navbar-transparent .navbar-brand:hover,
+.navbar-transparent .navbar-brand:active,
+.navbar-transparent .navbar-brand:focus {
+  color: white;
+}
+
+
+.dropdown-menu
+{
+	background-color: rgba(0,0,0,0.70);
+}
+
+.dropdown-menu>li>a
+{
+	color: white;
+}
